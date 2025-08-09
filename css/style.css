@@ -386,6 +386,9 @@ body {
     border-radius: 0.5rem;
     padding: 1.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .programme h3 {
@@ -406,7 +409,7 @@ body {
 }
 
 .programme__skill {
-    background-color: #d92c54;
+    background-color: #1b3c53;
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
@@ -417,7 +420,7 @@ body {
 
 .add-programme {
     max-width: 40rem;
-    margin: 4rem auto;
+    margin: 2rem auto;
 }
 
 .add-programme h2 {
@@ -466,4 +469,53 @@ body {
 .add-programme button:hover {
     background-color: #d30938;
     border-radius: 0.5rem;
+}
+
+.search__container {
+    max-width: 40rem;
+    margin: 0 auto 2rem auto;
+}
+
+#search {
+    width: 100%;
+    padding: 0.625rem;
+    margin-top: 0.35rem;
+    border: 1px solid rgb(27, 60, 83);
+    box-sizing: border-box;
+}
+
+#search:focus {
+    border-color: #1b3c53;
+    outline: none;
+    box-shadow: 0 0 5px rgba(27, 60, 83, 0.5);
+}
+
+/* Remove button */
+.remove-btn {
+    background-color: #d92c54;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+    background-color: #b82446;
+}
+
+.no-programmes-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 2rem;
+}
+
+.error-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #d92c54;
+    margin-top: 2rem;
 }

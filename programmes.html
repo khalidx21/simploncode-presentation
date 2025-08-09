@@ -27,6 +27,9 @@
 
         <section class="programmes">
             <h2>Liste des Programmes</h2>
+            <div class="search__container">
+                <input type="text" id="search" placeholder="Rechercher un programme">
+            </div>
             <div class="programmes__container">
             </div>
         </section>
@@ -41,8 +44,8 @@
                 <textarea id="description" name="description" rows="5" placeholder="Description du programme"
                     required></textarea>
 
-                <label for="duration">Durée</label>
-                <input type="text" id="duration" name="duration" placeholder="Durée du programme" required>
+                <label for="duration">Durée (en mois)</label>
+                <input type="number" id="duration" name="duration" placeholder="Durée du programme en mois" required min="1">
 
                 <label for="skills">Compétences</label>
                 <input type="text" id="skills" name="skills"
