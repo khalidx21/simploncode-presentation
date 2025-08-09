@@ -1,0 +1,47 @@
+{
+    "programmes": [
+        {
+            "id": "1",
+            "title": "Développeur Web et Web Mobile",
+            "description": "Formation intensive pour devenir développeur full-stack. Apprenez à créer des sites web et des applications mobiles robustes et performants.",
+            "duration": "7 mois",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Node.js",
+                "Express",
+                "SQL"
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Référent Digital",
+            "description": "Devenez le couteau suisse du numérique en entreprise. Vous apprendrez à gérer des projets web, à créer des contenus et à mettre en place des stratégies de marketing digital.",
+            "duration": "8 mois",
+            "skills": [
+                "Gestion de projet",
+                "Marketing digital",
+                "SEO",
+                "SEA",
+                "Google Analytics",
+                "Wordpress"
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Data Analyst",
+            "description": "Apprenez à collecter, traiter et analyser des données pour aider les entreprises à prendre des décisions stratégiques. Maîtrisez les outils et les langages les plus demandés.",
+            "duration": "6 mois",
+            "skills": [
+                "Python",
+                "Pandas",
+                "SQL",
+                "Tableau",
+                "Power BI",
+                "Statistiques"
+            ]
+        }
+    ]
+}

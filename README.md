@@ -38,7 +38,8 @@ simploncode-site/
 ├── css/
 │   └── style.css       # Feuille de style principale
 ├── js/
-│   └── main.js         # Scripts pour les fonctionnalités dynamiques
+│   └── programmes.js         # Scripts pour les fonctionnalités dynamiques
+├── db.json             # Base de données pour JSON Server
 └── images/             # Images utilisées dans le site
 ```
 

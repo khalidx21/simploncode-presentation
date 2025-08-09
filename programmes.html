@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programmmes</title>
+    <title>Programmes</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,8 +18,42 @@
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section class="title">
+            <h1>Nos Programmes</h1>
+            <p>Découvrez nos formations conçues pour vous préparer aux métiers du numérique. <br>Chaque programme est
+                intensif, pratique et axé sur les compétences les plus demandées par les recruteurs.</p>
+        </section>
+
+        <section class="programmes">
+            <h2>Liste des Programmes</h2>
+            <div class="programmes__container">
+            </div>
+        </section>
+
+        <section class="add-programme">
+            <h2>Ajouter un Programme</h2>
+            <form id="add-programme-form">
+                <label for="title">Titre</label>
+                <input type="text" id="title" name="title" placeholder="Titre du programme" required>
+
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="5" placeholder="Description du programme"
+                    required></textarea>
+
+                <label for="duration">Durée</label>
+                <input type="text" id="duration" name="duration" placeholder="Durée du programme" required>
+
+                <label for="skills">Compétences</label>
+                <input type="text" id="skills" name="skills"
+                    placeholder="Compétences acquises (séparées par des virgules)" required>
+
+                <button type="submit">Ajouter</button>
+            </form>
+        </section>
+    </main>
     <footer class="footer">© 2025 SimplonCode. All rights reserved.</footer>
+    <script src="./js/programmes.js"></script>
 </body>
 
 </html>
